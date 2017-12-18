@@ -1,0 +1,10 @@
+<import src="../../components/tab/index.wxml" />
+
+<view class="container">
+  
+  <view class="tab-container">
+    <template
+      is="zan-tab"
+      data="{{ ...tabItem, componentId: 'tabItem' }}"></template>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+exports.CheckLabel = require('../components/select/index');
+exports.Dialog = require('../components/dialog/index');
+exports.Field = require('../components/field/index');
+exports.NoticeBar = require('../components/noticebar/index');
+exports.Stepper = require('../components/stepper/index');
+exports.Switch = require('../components/switch/index');
+exports.Tab = require('../components/tab/index');
+exports.Toast = require('../components/toast/index');
+exports.TopTips = require('../components/toptips/index');
