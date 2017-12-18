@@ -15,12 +15,6 @@ Page(Object.assign({}, Zan.Tab, {
       }, {
         id: '4',
         title: '商品4'
-      }, {
-        id: '5',
-        title: '商品5'
-      }, {
-        id: '6',
-        title: '商品6'
       }],
       selectedId: '1',
       scroll: true,
