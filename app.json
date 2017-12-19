@@ -1,12 +1,48 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/discovery/discovery",
+    "pages/notify/notify",
+    "pages/chat/chat",
+    "pages/more/more"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Brother",
+    "navigationBarTitleText": "水",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/footer-icon-01.png",
+        "selectedIconPath": "images/footer-icon-01-active.png"
+      },
+      {
+        "pagePath": "pages/discovery/discovery",
+        "text": "分类",
+        "iconPath": "images/footer-icon-02.png",
+        "selectedIconPath": "images/footer-icon-02-active.png"
+      },
+      {
+        "pagePath": "pages/notify/notify",
+        "text": "购物车",
+        "iconPath": "images/footer-icon-03.png",
+        "selectedIconPath": "images/footer-icon-03-active.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "我的",
+        "iconPath": "images/footer-icon-04.png",
+        "selectedIconPath": "images/footer-icon-04-active.png"
+      }
+    ]
   }
 }
